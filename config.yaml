@@ -24,6 +24,14 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+ - id: timefortruth-co-uk
+    name: timefortruth.co.uk
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://timefortruth.co.uk'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
   - id: shop-timefortruth-co-uk
     name: shop.timefortruth.co.uk
     description: 'Built for anything connected to the Internet.'
