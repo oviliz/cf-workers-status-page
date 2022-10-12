@@ -24,7 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
- - id: timefortruth-co-uk
+  - id: timefortruth-co-uk
     name: timefortruth.co.uk
     description: 'Built for anything connected to the Internet.'
     url: 'https://timefortruth.co.uk'
