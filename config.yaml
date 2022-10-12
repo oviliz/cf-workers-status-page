@@ -2,7 +2,7 @@ settings:
   title: 'Status Page by Cloudflare'
   url: 'https://statuscf.oviliz.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 14 # number of days you want to display in histogram
+  daysInHistogram: 120 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
