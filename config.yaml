@@ -22,77 +22,35 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
 
   - id: mail-oviliz-com # unique identifier
     name: OviLiz Webmail
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://mail.oviliz.com/account/login' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
 
   - id: apps-rackspace-com
     name: Rackspace Webmail
     description: 'Built for anything connected to the Internet.'
     url: 'https://apps.rackspace.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: timefortruth-co-uk
-    name: timefortruth.co.uk
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://timefortruth.co.uk'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: app-sendgrid.com
     name: SendGrid
     description: 'Built for anything connected to the Internet.'
     url: 'https://app.sendgrid.com/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: shop-timefortruth-co-uk
-    name: shop.timefortruth.co.uk
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://shop.timefortruth.co.uk'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: dash-cloudflare-com
     name: Cloudflare Dashboard
     description: 'Built for anything connected to the Internet.'
-    url: 'https://dash.cloudflare.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: jdagencyltd-co-uk
-    name: jdagencyltd.co.uk
-    url: 'https://jdagencyltd.co.uk/'
-    method: GET
-    expectStatus: 200
+    url: 'https://dash.cloudflare.com/'
 
   - id: cloud-digitalocean-com
     name: Digital Ocean
     url: 'https://cloud.digitalocean.com/login'
-    method: GET
-    expectStatus: 200
 
   - id: accounts-hetzner-com
     name: Hetzner
     url: 'https://accounts.hetzner.com/login'
-    method: GET
-    expectStatus: 200
 
   - id: portal-azure-com
     name: Azure Portal
     url: 'https://portal.azure.com/'
-    method: GET
-    expectStatus: 200
