@@ -46,6 +46,7 @@ monitors:
     name: SendGrid
     description: 'Built for anything connected to the Internet.'
     url: 'https://app.sendgrid.com/'
+    linkable: false # allows the title to be a link, default=true
 
   - id: dash-cloudflare-com
     name: Cloudflare Dashboard
@@ -53,13 +54,16 @@ monitors:
     url: 'https://dash.cloudflare.com/'
 
   - id: cloud-digitalocean-com
-    name: Digital Ocean
+    name: DigitalOcean
     url: 'https://cloud.digitalocean.com/login'
+    linkable: false # allows the title to be a link, default=true
 
   - id: accounts-hetzner-com
     name: Hetzner
     url: 'https://accounts.hetzner.com/login'
+    linkable: false # allows the title to be a link, default=true
 
   - id: portal-azure-com
     name: Azure Portal
     url: 'https://portal.azure.com/'
+    linkable: false # allows the title to be a link, default=true
